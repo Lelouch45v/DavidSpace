@@ -83,10 +83,11 @@ const HeroContent = () => {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.3 }}
-            className="bg-white p-10 rounded-lg shadow-lg max-w-3xl w-full text-center"
+            className="p-10 rounded-lg shadow-lg text-center border border-[6px] border-[#8E53E9] w-[739px] max-w-[1313px]"
+            style={{ backgroundColor: '#010013' }}
           >
-            <h2 className="text-3xl font-semibold mb-6">More Information</h2>
-            <p className="text-lg text-gray-700">
+            <h2 className="text-3xl font-semibold mb-6 text-white">More Information</h2>
+            <p className="text-lg text-gray-400">
               This modal contains more details about my projects and skills.
             </p>
             <button
@@ -98,6 +99,8 @@ const HeroContent = () => {
           </motion.div>
         </div>
       )}
+
+
     </motion.div>
   );
 };
