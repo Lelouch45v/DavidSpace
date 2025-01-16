@@ -13,18 +13,18 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Space Center Apps"
+          description="All in One space app that can use by all users that every tools are needed."
         />
         <ProjectCard
           src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Student Teacher Monitoring"
+          description="A system that tracts activity of a student where they can show as a productive."
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Trading Prediction Tool"
+          description="this tool will be used by the stock traders or cryto traders that needed an accurate information that uses machine learning."
         />
       </div>
     </div>
