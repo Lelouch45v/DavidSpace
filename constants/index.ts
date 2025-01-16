@@ -147,13 +147,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
-    },
-  
+
     {
       skill_name: "Postger SQL",
       Image: "/postger.png",
@@ -178,19 +172,6 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Docker",
-      Image: "/docker.webp",
-      width: 70,
-      height: 70,
-    },
-  
-    {
       skill_name: "Figma",
       Image: "/figma.png",
       width: 50,
@@ -200,14 +181,7 @@ export const Skill_data = [
   ];
   
   
-  export const Other_skill = [
-    {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
-    },
-  ];
+ 
    
 
 export const nav_links = [
