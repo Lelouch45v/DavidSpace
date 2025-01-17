@@ -19,7 +19,7 @@ const ContactMe: React.FC = () => {
     };
     
     try {
-        const response = await fetch('/pages/api/route', {
+        const response = await fetch('/api/route', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
