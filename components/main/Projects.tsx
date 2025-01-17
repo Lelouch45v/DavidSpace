@@ -24,7 +24,7 @@ const Projects = () => {
         <ProjectCard
           src="/SpaceWebsite.png"
           title="Trading Prediction Tool"
-          description="this tool will be used by the stock traders or cryto traders that needed an accurate information."
+          description="this tool will be used by the stock traders or cryto traders that needed an accurate information that uses machine learning."
         />
       </div>
     </div>
