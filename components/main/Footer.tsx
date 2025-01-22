@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; David Fajardo Dev 2025. All rights reserved
+                &copy; WebChain Dev 2023 Inc. All rights reserved
             </div>
         </div>
     </div>

@@ -12,20 +12,20 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/SpaceCenter.png"
+          src="/NextWebsite.png"
           title="Space Center Apps"
           description="All in One space app that can use by all users that every tools are needed."
         />
         <ProjectCard
-          src="/Student_monitoring.png"
+          src="/CardImage.png"
           title="Student Teacher Monitoring"
-          description="A system that tracts activity of teachers and Student that monitors Screen activity for more info kindly contact me if you are interested."
+          description="A system that tracts activity of a student where they can show as a productive."
         />
-        {/* <ProjectCard
+        <ProjectCard
           src="/SpaceWebsite.png"
           title="Trading Prediction Tool"
           description="this tool will be used by the stock traders or cryto traders that needed an accurate information."
-        /> */}
+        />
       </div>
     </div>
   );

@@ -29,7 +29,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            David R. Fajardo
+            Fullstack Developer Portfolio
           </h1>
         </motion.div>
 
@@ -52,15 +52,15 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
-          and Software development, Ui and Ux Designer. Check out my projects and skills.
+          and Software development. Check out my projects and skills.
         </motion.p>
-
+        
         <motion.button
           variants={slideInFromLeft(1)}
           onClick={toggleModal}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Click To know More!
+          Learn More!
         </motion.button>
       </div>
 
@@ -77,72 +77,28 @@ const HeroContent = () => {
       </motion.div>
 
       {isModalOpen && (
-        <div
-          className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 w-full h-full"
-          onClick={toggleModal}
-        >
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.3 }}
-            className="p-6 rounded-lg shadow-lg text-center border border-[6px] border-[#8E53E9] max-w-full max-h-[80vh] sm:max-w-[82.0625rem] sm:max-h-[46.1875rem] flex flex-col relative"
+            className="p-10 rounded-lg shadow-lg text-center border border-[6px] border-[#8E53E9] w-[739px] max-w-[1313px]"
             style={{ backgroundColor: '#010013' }}
-            onClick={(e) => e.stopPropagation()}
           >
-            {/* Profile Section */}
-            <div className="flex flex-col lg:flex-row">
-              {/* Left Side: Profile Image */}
-              <div className="flex-shrink-0 w-full lg:w-1/2 flex justify-center items-center mb-4 lg:mb-0">
-                <img
-                  src="/Profile.png"
-                  alt="Profile"
-                  className="w-full max-w-sm object-cover rounded-lg"
-                />
-              </div>
-
-              <div className="flex-grow flex flex-col justify-start items-start p-4 bg-[#141825] rounded-lg shadow-lg">
-                {/* Name at the Top */}
-                <h1 className="text-4xl text-white font-bold mb-2">
-                  David R. Fajardo
-                </h1>
-
-                {/* Title */}
-                <p className="text-base text-gray-400 mb-6">
-                  Full Stack Software Engineer
-                </p>
-
-               {/* About Me Section */}
-                <h1 className="text-xl text-white font-bold mt-4">
-                  About Me
-                </h1>
-                <p className="text-sm text-gray-400 mt-2">
-                  I am a Full Stack Software Engineer with experience in website and software development, 
-                  as well as UI and UX design. I am currently still studying but have a passion for creating 
-                  systems that can make a positive impact on society. Always eager to learn and grow, I aim to 
-                  contribute to meaningful projects that solve real-world challenges.
-                </p>
-
-                {/* Download Resume Button */}
-                <div className="absolute bottom-10 flex justify-between w-full px-4">
-                  {/* Download Resume (PDF) - Left */}
-                  <a
-                    href="/Resume_David.pdf"
-                    download
-                    className="py-2 px-6 bg-[#8E53E9] text-white rounded-lg text-center"
-                  >
-                    Download Resume (PDF)
-                  </a>
-                </div>
-
-               
-              </div>
-
-            </div>
+            <h2 className="text-3xl font-semibold mb-6 text-white">More Information</h2>
+            <p className="text-lg text-gray-400">
+              This modal contains more details about my projects and skills.
+            </p>
+            <button
+              onClick={toggleModal}
+              className="mt-8 button-primary py-2 px-6 text-white rounded-lg"
+            >
+              Close
+            </button>
           </motion.div>
         </div>
       )}
-
 
 
     </motion.div>
