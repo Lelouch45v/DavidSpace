@@ -188,6 +188,7 @@ export const nav_links = [
   { name: "Home", section: "" },
   { name: "Skills", section: "skills" },
   { name: "Projects", section: "projects" },
+  { name: "Contact", section: "" },
 ];
 
     

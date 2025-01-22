@@ -1,3 +1,4 @@
+import ContactMe from "@/components/main/ContactMe";
 import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
@@ -11,6 +12,8 @@ export default function Home() {
         <Skills />
         <Encryption />
         <Projects />  
+        <ContactMe />
+
       </div>
     </main>
   );
