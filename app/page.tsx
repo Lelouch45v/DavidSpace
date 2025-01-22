@@ -12,7 +12,7 @@ export default function Home() {
         <Skills />
         <Encryption />
         <Projects />  
-        <ContactMe />
+        {/* <ContactMe /> */}
 
       </div>
     </main>
